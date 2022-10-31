@@ -1,0 +1,171 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+	font-family: 'Fraunces', serif;
+}
+body {
+	font-size: 1.4rem;
+}
+main {
+	width: 100%;
+	height: 100%;
+	background-color: #f3eae3;
+}
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 76px;
+	padding-bottom: 75px;
+}
+picture {
+	width: 300px;
+	height: 450px;
+}
+.img-principal {
+	width: 300px;
+	height: 450px;
+	border-radius: 10px 0 0 10px;
+}
+.parrafo {
+	width: 300px;
+	height: 450px;
+	padding-left: 30px;
+	border-radius: 0 10px 10px 0;
+	background-color: hsl(0, 0%, 100%);
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: hsl(228, 12%, 48%);
+	padding-top: 32px;
+	letter-spacing: .5rem;
+	padding-bottom: 21px;
+}
+h2 {
+	font-size: 3.4rem;
+	color: hsl(212, 21%, 14%);
+	line-height: 3.1rem;
+	padding-right: 30px;
+	padding-bottom: 25px;
+}
+.parrafo-principal {
+	font-size: 1.4rem;
+	font-family: 'Montserrat', sans-serif;
+	color: hsl(228, 12%, 48%);
+	line-height: 2.35rem;
+	padding-right: 30px;
+	padding-bottom: 27px;
+}
+.precios {
+	display: flex;
+	margin-bottom: 24px;
+}
+.precio-1 {
+	font-size: 3.2rem;
+	color: hsl(158, 36%, 37%);
+}
+.precio-2 {
+	font-family: 'Montserrat', sans-serif;
+	color: hsl(228, 12%, 48%);
+	font-size: 1.4rem;
+	font-weight: 500;
+	padding-left: 2rem;
+	align-self: center;
+}
+button {
+	display: flex;
+	width: 240px;
+	height: 48px;
+	color: hsl(0, 0%, 100%);
+	background-color: hsl(158, 36%, 37%);
+	border: none;
+	border-radius: 8px;
+	align-items: center;
+	justify-content: center;
+}
+button:hover {
+	cursor: pointer;
+	color: hsl(0, 0%, 100%);
+	background-color: #1A4031;
+}
+.carta {
+	padding-left: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4rem;
+}
+.attribution {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (max-width: 768px) {
+	main {
+		width: 100%;
+		height: 100%;
+		background-color: #f3eae3;
+	}
+	.main-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.card {
+		display: flex;
+		flex-direction: column;
+		width: 345px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	picture {
+		width: 345px;
+		height: 240px;
+	}
+	.img-principal {
+		width: 345px;
+		height: 240px;
+		border-radius: 10px 10px 0 0;
+	}
+	h1 {
+		padding-top: 22px;
+		padding-bottom: 13px;
+	}
+	h2 {
+		line-height: 3.2rem;
+		padding-right: 0;
+		padding-bottom: 15px;
+	}
+	.parrafo {
+		width: 345px;
+		height: 368px;
+		background-color: hsl(0, 0%, 100%);
+		padding-left: 26px;
+		padding-right: 15px;
+		border-radius: 0 0 10px 10px;
+	}
+	.parrafo-principal {
+		padding-right: 30px;
+		padding-bottom: 17px;
+	}
+	.precios {
+		margin-bottom: 17px;
+	}
+	button {
+		display: flex;
+		width: 295px;
+		height: 48px;
+		color: hsl(0, 0%, 100%);
+		background-color: hsl(158, 36%, 37%);
+		border: none;
+		border-radius: 8px;
+	}
+	.attribution {
+		display: none;
+	}
+}
