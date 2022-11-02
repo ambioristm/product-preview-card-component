@@ -8,19 +8,20 @@ html {
 	font-family: 'Fraunces', serif;
 }
 body {
-	font-size: 1.4rem;
-}
-main {
-	width: 100%;
-	height: 100%;
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-size: 14px;
 	background-color: #f3eae3;
 }
 .card {
+	width: 100%;
+	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding-top: 76px;
-	padding-bottom: 75px;
 }
 picture {
 	width: 300px;
@@ -38,7 +39,7 @@ picture {
 	border-radius: 0 10px 10px 0;
 	background-color: hsl(0, 0%, 100%);
 }
-h1 {
+h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.2rem;
 	font-weight: 500;
@@ -47,7 +48,7 @@ h1 {
 	letter-spacing: .5rem;
 	padding-bottom: 21px;
 }
-h2 {
+h1 {
 	font-size: 3.4rem;
 	color: hsl(212, 21%, 14%);
 	line-height: 3.1rem;
@@ -101,7 +102,6 @@ button:hover {
 }
 .attribution {
 	display: flex;
-	align-items: center;
 	justify-content: center;
 }
 
